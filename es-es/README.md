@@ -56,13 +56,13 @@ WebSocket RPC URL: wss://api.dynoprotocol.com
 ## Testnet
 ```
 Chain Name: DYNO-TESTNET
-Chain ID: 322
+Chain ID: 3967
 Symbol: DYNO
-RPC URL: https://rpc-testnet.kcc.network
-Explorer URL: https://scan-testnet.kcc.network
-WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
+RPC URL: https://tapi.dynoprotocol.com
+Explorer URL: https://testnet.dynoscan.io
+WebSocket RPC URL: wss://tapi.dynoprotocol.com
 
-Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
+Faucet URL: https://faucet.dynoscan.io (for test only, no value)
 ```
 
 # Documentación para desarrolladores
@@ -211,7 +211,7 @@ URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/K
 
 5. Quiero realizar algunas operaciones y pruebas en la testnet de DYNO. ¿Dónde puedo conseguir tokens de prueba?
 
-> Puede visitar nuestro grifo de testnet: https://faucet-testnet.kcc.network.
+> Puede visitar nuestro grifo de testnet: https://faucet.dynoscan.io.
 
 6.¿Cómo hacer stake en los nodos contractuales?
 

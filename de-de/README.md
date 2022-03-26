@@ -33,13 +33,13 @@ WebSocket RPC URL: wss://api.dynoprotocol.com
 ## Testnet
 ```
 Chain Name: DYNO-testnet
-Chain ID: 322
+Chain ID: 3967
 Symbol: DYNO
-RPC URL: https://rpc-testnet.kcc.network
-Explorer URL: https://scan-testnet.kcc.network
-WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
+RPC URL: https://tapi.dynoprotocol.com
+Explorer URL: https://testnet.dynoscan.io
+WebSocket RPC URL: wss://tapi.dynoprotocol.com
 
-Faucet URL: https://faucet-testnet.kcc.network (Zu testzwecken ohne einen Wert)
+Faucet URL: https://faucet.dynoscan.io (Zu testzwecken ohne einen Wert)
 ```
 
 # Developer Dokumentation

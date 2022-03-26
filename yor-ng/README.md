@@ -56,13 +56,13 @@ WebSocket RPC Ayelujara: wss://api.dynoprotocol.com
 ## Testnet
 ```
 Oruko Chaini: DYNO-TESTNET
-Idanimo Chaini: 322
+Idanimo Chaini: 3967
 Aami: DYNO
-RPC Ayelujara: https://rpc-testnet.kcc.network
-Oluwakiri Ayelujara: https://scan-testnet.kcc.network
-WebSocket RPC AyelujaraL: wss://rpc-ws-testnet.kcc.network
+RPC Ayelujara: https://tapi.dynoprotocol.com
+Oluwakiri Ayelujara: https://testnet.dynoscan.io
+WebSocket RPC AyelujaraL: wss://tapi.dynoprotocol.com
 
-Osooro Ayelujara: https://faucet-testnet.kcc.network (fun ayewo lasan ni, ko ni iye)
+Osooro Ayelujara: https://faucet.dynoscan.io (fun ayewo lasan ni, ko ni iye)
 ```
 
 # Difelopa
@@ -145,7 +145,7 @@ O le lo awọn SDK wọnyi lati ba nodu DYNO rpc soro.
 - [Remix](https://remix.ethereum.org/)
 - [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
 - [Hardhat](https://hardhat.org/)
-- [Faucet](https://faucet-testnet.kcc.network)
+- [Faucet](https://faucet.dynoscan.io)
 - [Explorer](https://explorer.kcc.io)
 
 ## Afara
@@ -229,7 +229,7 @@ AYELUJARA：[https://github.com/kcc-community/KIPs](https://github.com/kcc-commu
 
 5.Mo fẹ ṣe awọn iṣẹ ati awọn idanwo lori testneti DYNO. Nibo ni mo ti le gba awọn tokini idanwo?
 
->O le lo si faucet testneti wa: https://faucet-testnet.kcc.network.
+>O le lo si faucet testneti wa: https://faucet.dynoscan.io.
 
 6.Bi a se le fi awon adehun nodu pamo?
 

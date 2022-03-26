@@ -61,13 +61,13 @@ WebSocket RPC URL: wss://api.dynoprotocol.com
 ## Testnet
 ```
 Chain Name: DYNO-TESTNET
-Chain ID: 322
+Chain ID: 3967
 Symbol: DYNO
-RPC URL: https://rpc-testnet.kcc.network
-Explorer URL: https://scan-testnet.kcc.network
-WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
+RPC URL: https://tapi.dynoprotocol.com
+Explorer URL: https://testnet.dynoscan.io
+WebSocket RPC URL: wss://tapi.dynoprotocol.com
 
-Faucet URL: https://faucet-testnet.kcc.network (for test only, no value)
+Faucet URL: https://faucet.dynoscan.io (for test only, no value)
 ```
 
 # Developer 
@@ -151,7 +151,7 @@ You can use the following SDKs to interact with DYNO node rpc.
 - [Remix](https://remix.ethereum.org/)
 - [Truffle](https://www.trufflesuite.com/docs/truffle/overview)
 - [Hardhat](https://hardhat.org/)
-- [Faucet](https://faucet-testnet.kcc.network)
+- [Faucet](https://faucet.dynoscan.io)
 - [Explorer](https://explorer.kcc.io)
 
 ## Bridge
@@ -259,7 +259,7 @@ URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/K
 
 5.I want to carry out some operations and tests on the DYNO testnet. Where can I get test tokens?
 
->You can visit our testnet faucet: https://faucet-testnet.kcc.network.
+>You can visit our testnet faucet: https://faucet.dynoscan.io.
 
 6.How to stake contract nodes?
 

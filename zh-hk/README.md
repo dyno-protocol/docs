@@ -52,13 +52,13 @@ WebSocket RPC地址: wss://api.dynoprotocol.com
 ## 測試網
 ```
 網絡名稱: DYNO-TESTNET
-鏈ID: 322
+鏈ID: 3967
 符號: DYNO
-RPC地址: https://rpc-testnet.kcc.network
-瀏覽器地址: https://scan-testnet.kcc.network
-WebSocket RPC地址: wss://rpc-ws-testnet.kcc.network
+RPC地址: https://tapi.dynoprotocol.com
+瀏覽器地址: https://testnet.dynoscan.io
+WebSocket RPC地址: wss://tapi.dynoprotocol.com
 
-水龍頭: https://faucet-testnet.kcc.network (僅測試用，無價值)
+水龍頭: https://faucet.dynoscan.io (僅測試用，無價值)
 ```
 # 開發者
 
@@ -137,7 +137,7 @@ make geth
 - [合約開發工具：remix](https://remix.ethereum.org/)
 - [合約開發套件: truffle](https://www.trufflesuite.com/docs/truffle/overview)
 - [合約開發套件: hardhat](https://hardhat.org/)
-- [水龍頭: faucet](https://faucet-testnet.kcc.network)
+- [水龍頭: faucet](https://faucet.dynoscan.io)
 - [瀏覽器: explorer](https://explorer.kcc.io)
 
 ## 跨鏈橋
@@ -216,7 +216,7 @@ KIP是KCC改進提議的縮寫，任何社區用戶都可以在這裡發起有�
 
 5.我想在KCC測試網進行一些操作與測試，去哪可以獲得測試代幣？
 
->可以訪問我們的測試網水龍頭：https://faucet-testnet.kcc.network.
+>可以訪問我們的測試網水龍頭：https://faucet.dynoscan.io.
 
 6.如何對合約節點進行質押？
 
