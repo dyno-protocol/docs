@@ -11,13 +11,13 @@ docsify serve .
 ## Communities
 
 ### Media
-- [[Twitter] https://twitter.com/KCCOfficialTW](https://twitter.com/KCCOfficialTW)
-- [[Medium] https://kccofficial.medium.com](https://kccofficial.medium.com)
+- [[Twitter] https://twitter.com/KCCOfficialTW](https://twitter.com/DynoProtocol)
+- [[Medium] https://kccofficial.medium.com](https://dynoprotocol.medium.com/)
 
 ### User Groups
-- [[Telegram] DYNO Official English Community](https://t.me/KCCOfficialEnglishCommunity)
+- [[Telegram] DYNO Official English Community](https://t.me/dynoprotocol)
 - [[Discord] Official DYNO-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
 
 ### Official Emails
-- [kcc-tech@kcc.network](mailto:kcc-tech@kcc.network)
-- [kcc-business@kcc.network](mailto:kcc-business@kcc.network)
+- [contact@dynoprotocol.com](mailto:contact@dynoprotocol.com)
+- [business@dynoprotocol.com](mailto:business@dynoprotocol.com)
