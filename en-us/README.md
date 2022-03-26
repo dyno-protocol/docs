@@ -56,7 +56,7 @@ WebSocket RPC URL: wss://api.dynoprotocol.com
 
 *The rate limit of the endpoint on Testnet and Mainnet is 300/10s*
 
-*Users can use also [https://scan.kcc.io](https://scan.kcc.io) as Block Explorer.*
+
 
 ## Testnet
 ```
