@@ -77,7 +77,7 @@ Faucet URL: https://faucet.dynoscan.io (for test only, no value)
 
 ### Pasos
 ```
-git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
+git clone -b kcc --single-branch https://github.com/dyno-protocol/go-ethereum.git
 cd kcc
 make geth
 ```

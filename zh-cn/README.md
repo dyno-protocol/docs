@@ -68,7 +68,7 @@ WebSocket RPC地址: wss://tapi.dynoprotocol.com
 
 ## 运行节点
 ### 二进制文件
-直接访问[https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases)下载最新版本的二进制文件。
+直接访问[https://github.com/dyno-protocol/go-ethereum/releases](https://github.com/dyno-protocol/go-ethereum/releases)下载最新版本的二进制文件。
 
 ### Docker
 也可以使用 [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) 进行快速部署和测试。([关于如何使用Docker？](https://docs.docker.com/get-started/))
@@ -83,7 +83,7 @@ golang安装和配置请参考 [https://golang.org/doc/install](https://golang.o
 
 #### 编译步骤
 ```
-git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
+git clone -b kcc --single-branch https://github.com/dyno-protocol/go-ethereum.git
 cd kcc
 make geth
 ```

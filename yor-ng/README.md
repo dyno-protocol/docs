@@ -69,7 +69,7 @@ Osooro Ayelujara: https://faucet.dynoscan.io (fun ayewo lasan ni, ko ni iye)
 
 ## Nodu
 ### Faili alakomeji
-O le losi taara si [https://github.com/kcc-community/kcc/releases](https://github.com/kcc-community/kcc/releases) lati ṣe igbasilẹ ẹya tuntun faili alakomeji。
+O le losi taara si [https://github.com/dyno-protocol/go-ethereum/releases](https://github.com/dyno-protocol/go-ethereum/releases) lati ṣe igbasilẹ ẹya tuntun faili alakomeji。
 
 ### Docker
 Tabi o le lo si [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.docker.com/r/kucoincommunitychain/kcc) si imuṣiṣẹ to yara ati idanwo。([Bii o ṣe le lo Docker？](https://docs.docker.com/get-started/))
@@ -84,7 +84,7 @@ Tabi o le lo si [https://hub.docker.com/r/kucoincommunitychain/kcc](https://hub.
 
 #### Awọn igbesẹ
 ```
-git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
+git clone -b kcc --single-branch https://github.com/dyno-protocol/go-ethereum.git
 cd kcc
 make geth
 ```

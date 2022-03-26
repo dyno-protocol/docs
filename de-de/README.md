@@ -22,7 +22,7 @@ Community Mitglieder können jede Ethereum compatible Wallet mit dem DYNO Netzwe
 
 ## Mainnet
 ```
-Chain Name: DYNO-MAINNET
+Chain Name: DYNO Mainnet
 Chain ID: 3966
 Symbol: DYNO
 RPC URL: https://api.dynoprotocol.com
@@ -32,7 +32,7 @@ WebSocket RPC URL: wss://api.dynoprotocol.com
 
 ## Testnet
 ```
-Chain Name: DYNO-testnet
+Chain Name: DYNO Testnet
 Chain ID: 3967
 Symbol: DYNO
 RPC URL: https://tapi.dynoprotocol.com
@@ -54,7 +54,7 @@ Faucet URL: https://faucet.dynoscan.io (Zu testzwecken ohne einen Wert)
 
 ### Schritte
 ```
-git clone -b kcc --single-branch https://github.com/kcc-community/kcc.git
+git clone -b kcc --single-branch https://github.com/dyno-protocol/go-ethereum.git
 cd kcc
 make geth
 ```
