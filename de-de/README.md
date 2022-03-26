@@ -1,16 +1,16 @@
-# KCC
+# DYNO
 
 ## Einführung
 
-KCC ist eine dezentralisierte high-performance Blockchain, Gebaut von Fans von KCS und KuCoin.
+DYNO ist eine dezentralisierte high-performance Blockchain, Gebaut von Fans von DYNO und KuCoin.
 
 Entwickelt auf der Basis von "go-ethereum" mit dem Hintergedanken der Community eine "High-Speed" Blockchain Erfahrung mit niedrigen Gebühren zu bieten.
 
-KCC wird folgende Eigenschaften bieten:
+DYNO wird folgende Eigenschaften bieten:
 - Voll kompatibel mit Ethereum und ERC-20 Smart Contracts und extrem niedrigen migrations Gebühren.
-- Der KuCoin Token (KCS) ist der native haupt Coin für die KCC und wird unter anderem für Gas Gebühren genutzt.
+- Der KuCoin Token (DYNO) ist der native haupt Coin für die DYNO und wird unter anderem für Gas Gebühren genutzt.
 - Ein Block wird alle 3 Sekunden berechnet was eine höhere TPS (Transactions per Second) und Chain performance ermöglicht.
-- Die Basis der KCC ist der "Proof of Staked Authority" (PoSA) Konsensusalgorithmus mit hoher Effizienz, Sicherheit und Stabilität.
+- Die Basis der DYNO ist der "Proof of Staked Authority" (PoSA) Konsensusalgorithmus mit hoher Effizienz, Sicherheit und Stabilität.
 
 ## Mission
 
@@ -18,23 +18,23 @@ Mission: Beschleunigung der Wertübertragung um die ganze Welt ohne Grenzen.
 
 # Netzwerk Parameter
 
-Community Mitglieder können jede Ethereum compatible Wallet mit dem KCC Netzwerk Parametern konfigurieren wie z.B. [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
+Community Mitglieder können jede Ethereum compatible Wallet mit dem DYNO Netzwerk Parametern konfigurieren wie z.B. [metamask](https://metamask.io/), [myetherwallet](https://www.myetherwallet.com/), [imtoken](https://token.im/), [TokenPocket](https://www.tokenpocket.pro/) etc.
 
 ## Mainnet
 ```
-Chain Name: KCC-MAINNET
-Chain ID: 321
-Symbol: KCS
-RPC URL: https://rpc-mainnet.kcc.network
+Chain Name: DYNO-MAINNET
+Chain ID: 3966
+Symbol: DYNO
+RPC URL: https://api.dynoprotocol.com
 Explorer URL: https://explorer.kcc.io/de
-WebSocket RPC URL: wss://rpc-ws-mainnet.kcc.network
+WebSocket RPC URL: wss://api.dynoprotocol.com
 ```
 
 ## Testnet
 ```
-Chain Name: KCC-testnet
+Chain Name: DYNO-testnet
 Chain ID: 322
-Symbol: KCS
+Symbol: DYNO
 RPC URL: https://rpc-testnet.kcc.network
 Explorer URL: https://scan-testnet.kcc.network
 WebSocket RPC URL: wss://rpc-ws-testnet.kcc.network
@@ -105,7 +105,7 @@ Um den Node (`geth`) im Hintergrund laufen zu lassen, kannst du `nohup`,`supervi
 
 ## SDKs
 
-Um mit dem KCC Node (RPC oder Websocket) zu interagieren kannst du eine der folgenden SDKs nutzen.
+Um mit dem DYNO Node (RPC oder Websocket) zu interagieren kannst du eine der folgenden SDKs nutzen.
 
 - [Js: web3.js](https://github.com/kcc-community/web3.js) Ethereum JavaScript API
 - [Java: web3j](https://github.com/web3j/web3j) Web3 Java Ethereum Ðapp API
@@ -115,9 +115,9 @@ Um mit dem KCC Node (RPC oder Websocket) zu interagieren kannst du eine der folg
 
 ## Konsensusalgorithmus
 
-Die KCC nutzt den PoSA Konsensusalgorithmus welcher es ermöglicht niedrige Transaktiosgebühren, Transaktionswartezeiten sowie eine hohe Transaktionsparallelität zu ermöglichen und unterstützt damit bis zu maximal 29 Validatoren.
+Die DYNO nutzt den PoSA Konsensusalgorithmus welcher es ermöglicht niedrige Transaktiosgebühren, Transaktionswartezeiten sowie eine hohe Transaktionsparallelität zu ermöglichen und unterstützt damit bis zu maximal 29 Validatoren.
 
-PoSA ist eine Kombination auf PoA und PoS. Um ein Validator zu werden musst du ein "proposal/Anfrage" dafür einreichen und dann warten bis aktive Validatoren über deine Anfrage abgestimmt haben. Nachdem mehr als die hälfte der aktiven Validatoren abgestimmt haben ist es dir erlaubt Validator zu werden. Jeglicher Adresse kann seine KCS einer anderen Addresse "staken" welche qualifiziert ist ein Validator zu werden. Nachdem das Staking Volumen des jeweiligen Nodes die Top 29 Staking Addressen erreicht wird ein aktiver Validator im nächsten Epoch solange er die Position in den Top 29 hält.
+PoSA ist eine Kombination auf PoA und PoS. Um ein Validator zu werden musst du ein "proposal/Anfrage" dafür einreichen und dann warten bis aktive Validatoren über deine Anfrage abgestimmt haben. Nachdem mehr als die hälfte der aktiven Validatoren abgestimmt haben ist es dir erlaubt Validator zu werden. Jeglicher Adresse kann seine DYNO einer anderen Addresse "staken" welche qualifiziert ist ein Validator zu werden. Nachdem das Staking Volumen des jeweiligen Nodes die Top 29 Staking Addressen erreicht wird ein aktiver Validator im nächsten Epoch solange er die Position in den Top 29 hält.
 
 Alle aktiven Validatoren werden dazu angehalten anhand vordefinierter Regeln Blöcke zu "minen/berrechnen". Wenn ein Validator bei der berrechung eines Blocks dran ist, versagt, wird der Validator der nicht involviert war in den letzten "n/2" (n ist die Nummer of aktiven Validatoren) Blöcken wird zufallsbasiert einen "block-out" durchführen. Es müssen mindestens "n/2+1" aktive Validatoren sicher arbeiten um die Operationssicherheit der Blockchain zu gewährleisten.
 
@@ -126,7 +126,7 @@ Die schwierigkeit eines Block ist 2 wenn der Block automatisch generiert ist, un
 
 ### System Contracts
 
-KCC hat 3 integrierte System Contracts für den PoSA in der Geniss Datei.
+DYNO hat 3 integrierte System Contracts für den PoSA in der Geniss Datei.
 
 Der Source Code dieser 3 Contracts sind von "Heco" gefroked und sind auf unserem Github Repository zu finden: [https://github.com/kcc-community/kcc-genesis-contracts](https://github.com/kcc-community/kcc-genesis-contracts)。
 
@@ -144,11 +144,11 @@ Blockchain System Contract aufrufe：
 
 ### stake
 
-Du kannst die `stake` Methode im `validator` Contract aufrufen um für egal welchen Validator zu staken, das minimum das für einen Validator gestaked werden muss beträgt 32 KCS.
+Du kannst die `stake` Methode im `validator` Contract aufrufen um für egal welchen Validator zu staken, das minimum das für einen Validator gestaked werden muss beträgt 32 DYNO.
 
 ### unstake
 
-Wenn du dein KCS unstaken möchtest dann musst du die `unstake` Methode im `validator` Contract aufrufen und für mindestens 86400 Blöcke (4 Tage) warten um danach die Methode `withdrawStaking` im `validator` Contract  aufrufen zu können um deine KCS zu erhalten.
+Wenn du dein DYNO unstaken möchtest dann musst du die `unstake` Methode im `validator` Contract aufrufen und für mindestens 86400 Blöcke (4 Tage) warten um danach die Methode `withdrawStaking` im `validator` Contract  aufrufen zu können um deine DYNO zu erhalten.
 
 ### punish
 
@@ -168,11 +168,11 @@ Wenn du ein Problem mit einem speziellen Projekt hast dann verschiebe dieses `is
 
 ## KIPs
 
-KCC Verbesserungsvorschläge
+DYNO Verbesserungsvorschläge
 
-KCC Verbesserungsvorschläge (KIPs)  beschreiben den Standard für die KCC Plattform inkludiert Chain, Dex and dApps.
+DYNO Verbesserungsvorschläge (KIPs)  beschreiben den Standard für die DYNO Plattform inkludiert Chain, Dex and dApps.
 
-Der Idee hinter diesem Prozess ist es alle änderungen an der KCC so transparent und demokratisch wie möglich zu gestalten.
+Der Idee hinter diesem Prozess ist es alle änderungen an der DYNO so transparent und demokratisch wie möglich zu gestalten.
 
 URL：[https://github.com/kcc-community/KIPs](https://github.com/kcc-community/KIPs)
 
@@ -184,7 +184,7 @@ Nutze den Chrome Browser und öffne MetaMask [extension site](https://chrome.goo
 
 Folge den Anweisungem um deine ETH Wallet zu erzeugen und **Backuppe deinen Private Key und/oder deine Memonic**
 
-Konfiguriere MetaMask für das KCC Mainnet
+Konfiguriere MetaMask für das DYNO Mainnet
 
 (1) Öffne MetaMask. Im oberen Bereich siehst du das standard Netzwerk 【Ethereum mainnet】。
 
@@ -194,16 +194,16 @@ Klicke auf【Ethereum mainnet】danach klicke auf【custom RPC】im Dropdown Men
 
 <img width="170" alt="E2" src="https://user-images.githubusercontent.com/13411690/121641049-4597b080-cac1-11eb-8674-3755c30a3398.png">
 
-(2) Fülle die Felder in folgender reihenfolge aus um das KCC Mainnet hinzuzufügen:
-    Network Name：KCC-MAINNET
+(2) Fülle die Felder in folgender reihenfolge aus um das DYNO Mainnet hinzuzufügen:
+    Network Name：DYNO-MAINNET
 
-    New RPC URL：https://rpc-mainnet.kcc.network
+    New RPC URL：https://api.dynoprotocol.com
     
-    Chain ID: 321
+    Chain ID: 3966
     
-    Currency Symbol (optional)：KCS
+    Currency Symbol (optional)：DYNO
     
-    Block Explorer URL (optional):https://explorer.kcc.io/en
+    Block Explorer URL (optional):https://dynoscan.io
 
 <img width="170" alt="E3" src="https://user-images.githubusercontent.com/13411690/121641889-598fe200-cac2-11eb-92c5-6617c103ebee.png">
 

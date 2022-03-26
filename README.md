@@ -1,4 +1,4 @@
-# Docs for KCC
+# Docs for DYNO
 
 [Read docs online](https://docs.kcc.io)
 
@@ -15,8 +15,8 @@ docsify serve .
 - [[Medium] https://kccofficial.medium.com](https://kccofficial.medium.com)
 
 ### User Groups
-- [[Telegram] KCC Official English Community](https://t.me/KCCOfficialEnglishCommunity)
-- [[Discord] Official KCC-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
+- [[Telegram] DYNO Official English Community](https://t.me/KCCOfficialEnglishCommunity)
+- [[Discord] Official DYNO-Community](https://discord.gg/H5ucJydSyd) (Prefer Developers)
 
 ### Official Emails
 - [kcc-tech@kcc.network](mailto:kcc-tech@kcc.network)

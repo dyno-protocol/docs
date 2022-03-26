@@ -1,4 +1,4 @@
-# KCC
+# DYNO
 
 ## 社區鏈簡介
 KCC是由KCS和KuCoin的社區粉絲構建的，基於以太坊源代碼開發的，高性能和去中心化的公鏈，**目的是為了解決當前公鏈出現的性能底下，成本過高等問題，從而為社區用戶提供更快速的體驗能力，可以使用區塊鏈使用**。
@@ -25,7 +25,7 @@ KCC具有如下特性：
 ## 免責聲明
 尊敬的用戶（以下稱“您”）：
 
-KCC（以下簡稱“KCC”或“我們”）是一個去中心化公鏈，全球開發者都可以在KCC上部署應用，所有用戶可以在KCC上可以讀取、發送和交易。由於去中心化的特性，我們特向您提醒第三方DAPP風險如下：
+DYNO（以下簡稱“DYNO”或“我們”）是一個去中心化公鏈，全球開發者都可以在KCC上部署應用，所有用戶可以在KCC上可以讀取、發送和交易。由於去中心化的特性，我們特向您提醒第三方DAPP風險如下：
 - 您在任何平台、錢包、第三方Dapp有任何操作前，請首先DYOR(Do your own research)；
 - 無論您通過任何交易平台、錢包參與或使用KCC上的DAPP，均為您個人的自由選擇行為，我們並不向您推薦使用；
 - 我們不對任何第三方DAPP負有審核責任，也不對其服務所涉及的技術及信息的有效性、準確性、正確性、可靠性、質量、穩定、完整和及時性作出任何承諾和保證；
@@ -41,19 +41,19 @@ KCC（以下簡稱“KCC”或“我們”）是一個去中心化公鏈，全�
 
 ## 主網
 ```
-網絡名稱: KCC-MAINNET
-鏈ID: 321
-符號: KCS
-RPC地址: https://rpc-mainnet.kcc.network
+網絡名稱: DYNO-MAINNET
+鏈ID: 3966
+符號: DYNO
+RPC地址: https://api.dynoprotocol.com
 瀏覽器地址: https://explorer.kcc.io/cn
-WebSocket RPC地址: wss://rpc-ws-mainnet.kcc.network
+WebSocket RPC地址: wss://api.dynoprotocol.com
 ```
 
 ## 測試網
 ```
-網絡名稱: KCC-TESTNET
+網絡名稱: DYNO-TESTNET
 鏈ID: 322
-符號: KCS
+符號: DYNO
 RPC地址: https://rpc-testnet.kcc.network
 瀏覽器地址: https://scan-testnet.kcc.network
 WebSocket RPC地址: wss://rpc-ws-testnet.kcc.network
@@ -141,7 +141,7 @@ make geth
 - [瀏覽器: explorer](https://explorer.kcc.io)
 
 ## 跨鏈橋
-- [KCC-Bridge](https://www.kcc.io/bridge/transfer/)
+- [DYNO-Bridge](https://www.kcc.io/bridge/transfer/)
 - [AnySwap](https://anyswap.exchange/bridge)
 
 ## 共識
@@ -190,7 +190,7 @@ KCC在genesis文件中內置了PoSA共識相關的合約，
 
 
 ## KIPs
-KCC Improvement Proposals
+DYNO Improvement Proposals
 
 KIP是KCC改進提議的縮寫，任何社區用戶都可以在這裡發起有關KCC及相關應用的提議，
 參與討論並執行。
@@ -241,7 +241,7 @@ KIP是KCC改進提議的縮寫，任何社區用戶都可以在這裡發起有�
 
 >如果目標地址是您的個人地址，則操作非常簡單。把錢包網絡改成KCC，導入你的地址和你的KCC-USDT合約地址，就可以看到USDT餘額了。
 
->如果您的目標地址是交易所或中心化錢包，您需要聯繫他們的客戶支持，讓他們支持 KCC 或將其退款到您的原始地址。
+>如果您的目標地址是交易所或中心化錢包，您需要聯繫他們的客戶支持，讓他們支持 DYNO 或將其退款到您的原始地址。
 
 >因此，我們建議我們的用戶清楚他們為什麼要進行代幣轉移，因為區塊鏈具有不可變性，這意味著任何轉移一旦發送就無法回滾，所以我們建議您先用較小的金額進行嘗試。
 
@@ -251,7 +251,7 @@ KIP是KCC改進提議的縮寫，任何社區用戶都可以在這裡發起有�
 
 根據頁面提示創建以太坊錢包，**備份好私鑰及助記詞**；
 
-切換到 KCC 主網
+切換到 DYNO 主網
 
 (1) 打開 MetaMask，可以看到錢包被默認設置成【以太坊主網】。
 
@@ -266,15 +266,15 @@ KIP是KCC改進提議的縮寫，任何社區用戶都可以在這裡發起有�
 
 
 
-(2) 切換到 KCC 主網請在表單中填入下列數據：
+(2) 切換到 DYNO 主網請在表單中填入下列數據：
 
-    網絡名稱：KCC-MAINNET
+    網絡名稱：DYNO-MAINNET
     
-    RPC URL：https://rpc-mainnet.kcc.network
+    RPC URL：https://api.dynoprotocol.com
     
-    ChainID: 321
+    ChainID: 3966
     
-    符號：KCS
+    符號：DYNO
     
     瀏覽器鏈接:https://explorer.kcc.io/cn
 
@@ -286,10 +286,10 @@ KIP是KCC改進提議的縮寫，任何社區用戶都可以在這裡發起有�
 <img width="170" alt="C4" src="https://user-images.githubusercontent.com/13411690/121639786-a6be8480-cabf-11eb-9ff0-76995dfdccfa.png">
 
 ## 如何處理MetaMask卡住的交易？
-[[視頻]How to Unstuck Stuck Transactions on MetaMask (KCC)](https://youtu.be/0xkkRmajIJI)
+[[視頻]How to Unstuck Stuck Transactions on MetaMask (DYNO)](https://youtu.be/0xkkRmajIJI)
 
 ## 如何在MetaMask添加KCC上的資產?
-[[視頻]How to add a custom token to your MetaMask wallet (KCC)](https://youtu.be/tb7xSLur6EU)
+[[視頻]How to add a custom token to your MetaMask wallet (DYNO)](https://youtu.be/tb7xSLur6EU)
 
 
 
